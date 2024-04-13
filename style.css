@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    height: 80vh;
+    width: 100vw;
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/26/14/06/flower-8598044_640.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 470px;
+    /* height: 50vh; */
+    background: linear-gradient(135deg, #0d2fa1, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.card input {
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border: none;
+}
+
+.card .btn {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #222;
+}
+
+.output {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    margin-right: 5rem;
+    font-weight: 600;
+}
